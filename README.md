@@ -1,1 +1,1 @@
-#atividade git github
+criação de uma barra de loading com progressão aleatoria utilizando time e random (imports) deixando uma mensagem após ser concluida
