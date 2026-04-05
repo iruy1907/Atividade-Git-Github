@@ -11,7 +11,7 @@ while loading <= load:
     print(f"\r[{barra}] {progresso}%   ", end="")
 
     time.sleep(0.5)
-    loading += random.randint(1,6) 
+    loading += random.randint(1,10) 
 
 print("\n Loading Concluido")
 print("\033[?25h")
