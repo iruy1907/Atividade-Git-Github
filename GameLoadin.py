@@ -11,3 +11,5 @@ while loading <= load:
 
     time.sleep(0.5)
     loading += 1 
+
+print("\n Concluido")
