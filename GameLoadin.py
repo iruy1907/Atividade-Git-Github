@@ -7,9 +7,9 @@ while loading <= load:
     progresso = int((loading/load)*100)
     barra = chr(9608) * loading +" " * (load - loading)
 
-    print(f"\r[{barra}] {progresso}%    ", end="")
+    print(f"\r[{barra}] {progresso}%   ", end="")
 
     time.sleep(0.5)
     loading += random.randint(1,6) 
 
-print("\n Concluido")
+print("\n Loading Concluido")
