@@ -9,4 +9,5 @@ while loading <= load:
 
     print(f"\r[{barra}] {progresso}%    ", end="")
 
+    time.sleep(0.5)
     loading += 1 
