@@ -2,6 +2,7 @@ import time, random
 
 load = 100
 loading = 0
+print("\033[?25l")
 
 while loading <= load:
     progresso = int((loading/load)*100)
@@ -13,3 +14,4 @@ while loading <= load:
     loading += random.randint(1,6) 
 
 print("\n Loading Concluido")
+print("\033[?25h")
