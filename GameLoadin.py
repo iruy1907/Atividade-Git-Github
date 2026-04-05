@@ -8,3 +8,5 @@ while loading <= load:
     barra = chr(9608) * loading +" " * (load - loading)
 
     print(f"\r[{barra}] {progresso}%    ", end="")
+
+    loading += 1 
